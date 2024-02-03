@@ -1,0 +1,45 @@
+.ProjectSection{
+    margin-bottom: 2rem;
+}
+.ProjectHeader{
+    width: 80%;
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    margin: 0 auto 1rem auto;
+}
+.ProjectHeader h1{
+    font-size: 2rem;
+}
+.ProjectHeader p{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 600;
+}
+.ProjectImg{
+    background: linear-gradient(rgba(0,0,0,0.2),rgba(0,0,0,0.2),rgba(0,0,0,0.5)),url("/assets/ProjectsBg.png");
+    height: 80dvh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+    position: relative;
+}
+.projectContent{
+    position: absolute;
+    bottom: 0;
+    left: 9%;
+    bottom: 2rem;
+}
+.ProjectImg h1{
+    font-size: 2.5rem;
+    font-weight: 500;
+}
+.ProjectImg span{
+    display: flex;
+    align-items: center;
+    padding-top: 0.5rem;
+    gap: 0.2rem;
+}
+.ProjectIcon{
+    font-size: 2rem;
+}
