@@ -43,3 +43,38 @@
 .ProjectIcon{
     font-size: 2rem;
 }
+
+@media screen and (min-width:10px) and (max-width:780px) {
+    .ProjectSection{
+        margin-bottom: 2rem;
+    }
+    .ProjectHeader{
+        flex-direction: column;
+        gap: 0;
+        margin: 0 auto;
+    }
+    .ProjectHeader h1{
+        font-size: 2rem;
+        position: relative;
+        padding-bottom: 1rem;
+        margin-bottom: 1rem;
+    }
+    .ProjectHeader h1::before{
+        position: absolute;
+        content: "";
+        height: 4px;
+        background-color: var(--orangeLight);
+        width: 80%;
+        left: 2rem;
+        bottom: 4px;
+
+
+    }
+    .ProjectHeader p{
+        display: none;
+    }
+    .ProjectImg{
+        background-position: center;
+    }
+
+}

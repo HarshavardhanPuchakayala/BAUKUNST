@@ -1,0 +1,94 @@
+.NewsSection{
+    width: 80%;
+    margin: 4rem auto;
+}
+.NewsTitle{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+}
+.NewsTitle h1{
+    font-size: 2rem;
+    font-weight:700;
+}
+.NewsTitle p{
+    font-size: 2rem;
+    padding-bottom: 1.5rem;
+    font-weight: 800
+}
+.NewsCards{
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    align-items: center;
+}
+.NewsCard{
+    padding: 1rem 1.2rem;
+    box-shadow: 0 1px 10px rgb(218, 212, 212);
+    border-radius: 0.7rem;
+    width: 100%;
+    cursor: pointer;
+}
+.NewsCard img{
+    width: 340px;
+    height: 50dvh;
+    border-radius: 0.7rem;
+    object-fit: cover;
+    margin: 0 auto;
+}
+.NewsCardContent h4{
+    font-size: 1.1rem;
+    font-weight: 700;
+    line-height: 1.5rem;
+    padding: 0.5rem 0;
+}
+.NewsCardContent span{
+    display: flex;
+    gap: 0.2rem;
+    align-items: center;
+}
+.NewsCardContent span p{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+@media screen and (min-width:10px) and (max-width:780px) {
+    .NewsSection{
+        width: 90%;
+        margin: 3rem auto;
+    }
+    .NewsTitle{
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+    .NewsTitle h1{
+        position: relative;
+    }
+    .NewsTitle h1::before{
+        content: "";
+        height: 4px;
+        background-color: var(--orangeLight);
+        width: 80%;
+        position: absolute;
+        bottom: -0.5rem;
+        left: 10%;
+    }
+    .NewsTitle p{
+        display: none;
+    }
+    .NewsCards{
+        margin: 2rem auto;
+        display: flex;
+        gap: 1.5rem;
+        align-items: center;
+        flex-direction: column;
+        width: 90%;
+    }
+    .NewsCard{
+        padding: 1.5rem 1.2rem;
+    }
+    .NewsCard img{
+        width: 300px;
+    }
+}

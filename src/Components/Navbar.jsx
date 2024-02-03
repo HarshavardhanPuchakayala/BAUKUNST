@@ -36,6 +36,11 @@ export default function Navbar() {
                     Team
                     </a>
                     </li>
+                    <li>
+                <a href="#FAQ">
+                    FAQ
+                    </a>
+                    </li>
                 <li>
                 <a href="#News">
                     News

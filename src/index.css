@@ -7,6 +7,7 @@
   --orangeSemiLight:#B54D01;
   --orangeLightDark:#F97A1F;
   --orangeLight:#FF9B52;
+  --dark:#444444;
 
 }
 *{
@@ -28,7 +29,5 @@ a{
   .container{
     width: 90%;
   }
-  main{
-    border: 0.1px solid red;
-  }
+
 }

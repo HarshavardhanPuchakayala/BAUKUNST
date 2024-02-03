@@ -1,0 +1,159 @@
+footer{
+    background-color: var(--dark);
+    color: white;
+}
+.footerdivs{
+    background-color: var(--dark);
+    color: white;
+}
+.footerlogo{
+    padding: 3rem 0 2rem 5rem;
+}
+.footer{
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    gap: 1rem;
+    padding-bottom: 2rem;
+}
+.Grid1{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Grid1 h4{
+    font-size: 1.3rem;
+}
+.Grid1 p{
+    width: 80%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.Grid1 span{
+    display: flex;
+    gap: 1.5rem;
+    align-items: center;
+    padding-top: 0.5rem;
+}
+.Grid1 span img{
+    width: 6%;
+}
+.Grid1 span p{
+    width: 60%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+
+
+.Grid2{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 1rem;
+    row-gap: 1.5rem;
+    justify-content: space-between;
+    width: 30%;
+}
+.Grid2 ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+.Grid2 ul li{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.Grid2 ul li:first-child{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+
+
+.Grid3{
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    align-items: center;
+}
+.Grid3 h4{
+    font-size: 1.2rem;
+    font-weight: 800;
+}
+.Grid3 p{
+    width: 60%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+}
+.Grid3 button{
+    margin: 0 auto;
+    padding: 0.6rem 1.5rem;
+    border: 4px solid var(--orangeSemiLight);
+    background-color: transparent;
+    color: white;
+    font-weight: 600;
+    font-size: 1rem;
+    border-radius: 0.7rem;
+}
+
+.footerdivs{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1rem 0;
+    border-top: 2px solid gray;
+    box-shadow: 0 1px 5px gray;
+}
+@media screen and (min-width:10px) and (max-width:780px) {
+    .footerlogo{
+        padding: 3rem 0 2rem 2rem;
+    }
+    .footer{
+        width: 90%;
+        flex-direction: column;
+        gap: 1.5rem;
+    }
+    .Grid1{
+        flex-direction: column;
+    }
+    .Grid1 p{
+        width: 100%;
+    }
+    .Grid1 span img{
+        width: 12%;
+    }
+    .Grid1 span p{
+        width: 100%;
+    }
+    
+    
+    .Grid2{
+        grid-template-columns:1fr;
+        width: 100%;
+        row-gap: 2rem;
+    }
+    .Grid2 ul{
+        gap: 0.8rem;
+    }
+    .Grid2 ul li{
+        font-size: 1.1rem;
+        font-weight: 500;
+    }
+    .Grid2 ul li:first-child{
+        font-size: 1.5rem;
+        font-weight: 800;
+    }
+    
+    
+    .Grid3{
+        align-items: start;
+    }
+    .Grid3 h4{
+        font-size: 1.6rem;
+        font-weight: 800;
+    }
+    .Grid3 p{
+        width: 100%;
+        font-size: 1rem;
+        line-height: 1.8rem;
+    }
+}
